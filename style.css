@@ -1,0 +1,111 @@
+body{
+    text-align: center;
+    margin: 0;
+}
+
+#info{
+    position: absolute;
+    bottom: 0;
+    display: table;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(aqua 0%,lightgreen 100%)
+}
+
+#bio{
+    margin-top: 700px;
+    padding-top: 100px;
+    font-family: cursive;
+}
+
+.inner-div{
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.line{
+    width: 80px;
+    height: 10px;
+    background-color: black;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.pic{
+    border-radius: 50%;
+}
+
+#name{
+    font-size: 50px;
+    font-family: 'Sue Ellen Francisco', cursive;
+
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-weight: 300;
+}
+
+h2{
+    font-size: 30px;
+   font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+}
+
+p{
+    padding: 100px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    text-align:justify;
+    word-spacing: 5px;
+}
+
+.menu{
+    z-index:10;
+    position:fixed;
+    list-style: none;
+    top: 0px;
+    width:100%;
+    background-color:azure;
+    cursor:pointer;
+    margin:0;
+}
+
+.item{
+    display: inline;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 20px;
+    font-family: 'Bitter', serif;
+}
+
+.item:hover{
+ font-size: 35px;
+ text-decoration:underline;
+}
+
+.menu a{
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#writings a{
+    font-family:'Sue Ellen Francisco';
+    font-size:35px ;
+    font-weight:100;
+    text-decoration:none;
+    color:black;
+}
+
+#links a{
+    font-size:35px;
+    text-decoration:none;
+    color:black;
+    font-family:'Sue Ellen Francisco';
+    margin-bottom: 10px;
+}
+
